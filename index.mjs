@@ -19,6 +19,8 @@ const fakeUser = {
   optional1: "something",
 };
 
+// logging in with git
+
 // userSchema.validate must be awaited
 const isValid = await userSchema.validate(fakeUser);
 
